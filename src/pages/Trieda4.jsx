@@ -16,10 +16,11 @@ export default class Trieda4 extends React.Component {
 <div className="d-flex flex-column justify-content-center align-items-center min-vw-100 min-vh-100">
           <Head text="Темы" />
           <div className="d-flex flex-wrap justify-content-around">
-<a className="d-block text-decoration-none text-dark" href="/electricity">
 
 
-            <div role="button" href="/electricity" className="card shadow-sm x-shadow-fade-in bg-white d-flex flex-row mb-4 " style={{ width: '38rem' }}>
+<a className="d-block text-decoration-none text-dark" href="/magnet">
+
+            <div role="button" className="card shadow-sm x-shadow-fade-in bg-white d-flex flex-row mb-4 " style={{ width: '38rem' }}>
               <div className="d-flex align-items-center justify-content-center">
                 <img src={magnetic} className="img-fluent" style={{ height: "11rem" }}></img>
               </div>

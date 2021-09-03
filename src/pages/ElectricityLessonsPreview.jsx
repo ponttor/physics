@@ -33,7 +33,7 @@ export default class Home extends React.Component {
           <div className="h3">2</div>
           <div className="col" style={{ marginLeft: "2rem"}}>
           <a href="/electricity-2" className="text-decoration-none text-dark"><h5>Свойства заряда.</h5></a>
-            <div className="text-muted">Узнать откуда берется заряд и какие у него свойства</div>
+            <div className="text-muted">Узнать что такое заряд и какие у него свойства</div>
           </div>
           <div >
             <div><a href="/electricity-2" className="text-decoration-none text-success">теория</a></div>
@@ -47,7 +47,7 @@ export default class Home extends React.Component {
           <div className="h3">3</div>
           <div className="col" style={{ marginLeft: "2rem"}}>
           <a href="/electricity-2" className="text-decoration-none text-dark"><h5>Закон Кулона.</h5></a>
-            <div className="text-muted">Узнать формулу для расчета силы взаимодействия зарядов</div>
+            <div className="text-muted">Научиться рассчитывать силу взаимодействия зарядов</div>
           </div>
           <div >
             <div><a href="/electricity-3" className="text-decoration-none text-success">теория</a></div>
@@ -60,7 +60,7 @@ export default class Home extends React.Component {
         <div className="d-flex">
           <div className="h3">3</div>
           <div className="col" style={{ marginLeft: "2rem"}}>
-            <h5>Закон КулонаЭлектрическое поле. Напряженность.</h5>
+            <h5>Электрическое поле. Напряженность.</h5>
             <div className="text-muted">Понять, что такое электрическое поле</div>
           </div>
           <div >

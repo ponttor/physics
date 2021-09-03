@@ -10,7 +10,13 @@ import Electricity2 from '../pages/Electricity2.jsx';
 import Electricity3 from '../pages/Electricity3.jsx';
 import Electricity4 from '../pages/Electricity4.jsx';
 import Electricity5 from '../pages/Electricity5.jsx';
+import Magnet1 from '../pages/Magnet1.jsx';
+import Magnet2 from '../pages/Magnet2.jsx';
+import Magnet3 from '../pages/Magnet3.jsx';
+import Magnet4 from '../pages/Magnet4.jsx';
+import Magnet5 from '../pages/Magnet5.jsx';
 import ElectricityLessonsPreview from '../pages/ElectricityLessonsPreview.jsx';
+import MagnetLessonsPreview from '../pages/MagnetLessonsPreview.jsx';
 import Home from '../pages/Home.jsx';
 // import { Container } from 'react-bootstrap';
 // import logo1 from '../images/lines3.gif'
@@ -30,11 +36,17 @@ export default class App extends React.Component {
             <Route exact path="/trieda-3" component={Trieda3} />
             <Route exact path="/trieda-4" component={Trieda4} />
             <Route exact path="/electricity" component={ElectricityLessonsPreview} />
+            <Route exact path="/magnet" component={MagnetLessonsPreview} />
             <Route exact path="/electricity-1" component={Electricity1} />
             <Route exact path="/electricity-2" component={Electricity2} />
             <Route exact path="/electricity-3" component={Electricity3} />
             <Route exact path="/electricity-4" component={Electricity4} />
             <Route exact path="/electricity-5" component={Electricity5} />
+            <Route exact path="/magnet-1" component={Magnet1} />
+            <Route exact path="/magnet-2" component={Magnet2} />
+            <Route exact path="/magnet-3" component={Magnet3} />
+            <Route exact path="/magnet-4" component={Magnet4} />
+            <Route exact path="/magnet-5" component={Magnet5} />
           </Switch>
         </Router>
       </>

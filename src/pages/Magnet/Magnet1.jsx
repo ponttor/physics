@@ -1,12 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import Lesson from '../components/Lesson.jsx';
-import two from '../images/magnet/two-conductor.png'
-import earth from '../images/magnet/earth.jpg'
-import emp from '../images/magnet/newpa1.gif'
-import tok from '../images/magnet/tok.png'
+import two from '../../images/magnet/two-conductor.png'
+import earth from '../../images/magnet/earth.jpg'
+import emp from '../../images/magnet/newpa1.gif'
+import tok from '../../images/magnet/tok.png'
 
 export default class Electricity1 extends React.Component {
   render() {

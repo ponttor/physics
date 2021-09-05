@@ -1,17 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import Lesson from '../components/Lesson.jsx';
-import two from '../images/magnet/two-conductor.png';
-import earth from '../images/magnet/earth.jpg';
-import right from '../images/magnet/right.png';
-import induction from '../images/magnet/induction.jpg';
-import superP from '../images/magnet/super.jpg'
-import longm from '../images/magnet/longm.jpg'
-import tl from '../images/magnet/tl.gif'
-import coef from '../images/magnet/coef.png'
-import sol from '../images/magnet/sol.jpg'
+import right from '../../images/magnet/right.png';
+import induction from '../../images/magnet/induction.jpg';
+import superP from '../../images/magnet/super.jpg'
+import longm from '../../images/magnet/longm.jpg'
+import tl from '../../images/magnet/tl.gif'
+import coef from '../../images/magnet/coef.png'
+import sol from '../../images/magnet/sol.jpg'
 
 export default class Electricity1 extends React.Component {
   render() {

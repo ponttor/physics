@@ -1,12 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import Lesson from '../components/Lesson.jsx';
-import atom from '../images/electricity/atom.gif'
-import ele from '../images/electricity/elnabitie.webp'
-import culon from '../images/electricity/culon.png'
-import culon2 from '../images/electricity/culon3.gif'
+import culon from '../../images/electricity/culon.png'
+import culon2 from '../../images/electricity/culon3.gif'
 
 export default class Electricity1 extends React.Component {
   render() {

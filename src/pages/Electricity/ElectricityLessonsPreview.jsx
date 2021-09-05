@@ -1,8 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import pic from '../images/krug.png'
+import Head from '../../components/Head.jsx';
 
 export default class Home extends React.Component {
   render() {

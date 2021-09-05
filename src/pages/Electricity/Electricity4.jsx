@@ -1,13 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import Lesson from '../components/Lesson.jsx';
-import napr from '../images/electricity/napr.jpg'
-import n from '../images/electricity/n.png'
-import n2 from '../images/electricity/n2.jpg'
-import s from '../images/electricity/s.jpg'
-import s3 from '../images/electricity/s3.png'
+import napr from '../../images/electricity/napr.jpg'
+import n from '../../images/electricity/n.png'
+import n2 from '../../images/electricity/n2.jpg'
+import s from '../../images/electricity/s.jpg'
+import s3 from '../../images/electricity/s3.png'
 
 export default class Electricity1 extends React.Component {
   render() {

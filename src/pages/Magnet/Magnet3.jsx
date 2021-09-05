@@ -1,9 +1,9 @@
 
 import React from 'react';
 
-import line from '../images/magnet/lines.jpg'
-import line2 from '../images/magnet/lines2.jpg'
-import img3 from '../images/magnet/im3.png'
+import line from '../../images/magnet/lines.jpg'
+import line2 from '../../images/magnet/lines2.jpg'
+import img3 from '../../images/magnet/im3.png'
 
 export default class Electricity1 extends React.Component {
   render() {

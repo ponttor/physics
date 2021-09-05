@@ -1,13 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import YouTube from 'react-youtube';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import Lesson from '../components/Lesson.jsx';
-import atom from '../images/electricity/atom.gif'
-import ele from '../images/electricity/elnabitie.webp'
-import polar from '../images/electricity/polar.png'
-import culon2 from '../images/electricity/culon3.gif'
+import atom from '../../images/electricity/atom.gif'
+import ele from '../../images/electricity/elnabitie.webp'
+import polar from '../../images/electricity/polar.png'
 
 export default class Electricity1 extends React.Component {
   render() {

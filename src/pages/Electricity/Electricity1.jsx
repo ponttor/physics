@@ -1,9 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LessonPreview from '../components/LessonPreview.jsx';
-import Head from '../components/Head.jsx';
-import Lesson from '../components/Lesson.jsx';
-import forces from '../images/electricity/4forces.jpg'
+import forces from '../../images/electricity/4forces.jpg'
 
 export default class Electricity1 extends React.Component {
   render() {

@@ -1,26 +1,27 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Lesson0 from './Lesson0';
 // import Grade from './Grade.jsx';
 // import Head from './Head.jsx';
-import Trieda2 from '../pages/Trieda2.jsx';
-import Trieda3 from '../pages/Trieda3.jsx';
-import Trieda4 from '../pages/Trieda4.jsx';
-import Electricity1 from '../pages/Electricity/Electricity1.jsx';
-import Electricity2 from '../pages/Electricity/Electricity2.jsx';
-import Electricity3 from '../pages/Electricity/Electricity3.jsx';
-import Electricity4 from '../pages/Electricity/Electricity4.jsx';
-import Electricity5 from '../pages/Electricity/Electricity5.jsx';
-import Magnet1 from '../pages/Magnet/Magnet1.jsx';
-import Magnet2 from '../pages/Magnet/Magnet2.jsx';
-import Magnet3 from '../pages/Magnet/Magnet3.jsx';
-import Magnet4 from '../pages/Magnet/Magnet4.jsx';
-import Magnet5 from '../pages/Magnet/Magnet5.jsx';
-import ElectricityLessonsPreview from '../pages/Electricity/ElectricityLessonsPreview.jsx';
-import MagnetLessonsPreview from '../pages//Magnet/MagnetLessonsPreview.jsx';
-import SapiensLessonsPreview from '../pages/Sapiens/SapiensLessonsPreview.jsx';
-import Sapiens1 from '../pages/Sapiens/Sapiens1.jsx';
-import Sapiens2 from '../pages/Sapiens/Sapiens2.jsx';
-import Home from '../pages/Home.jsx';
+// import Trieda2 from '../pages/Trieda2.jsx';
+// import Trieda3 from '../pages/Trieda3.jsx';
+// import Trieda4 from '../pages/Trieda4.jsx';
+// import Electricity1 from '../pages/Electricity/Electricity1.jsx';
+// import Electricity2 from '../pages/Electricity/Electricity2.jsx';
+// import Electricity3 from '../pages/Electricity/Electricity3.jsx';
+// import Electricity4 from '../pages/Electricity/Electricity4.jsx';
+// import Electricity5 from '../pages/Electricity/Electricity5.jsx';
+// import Magnet1 from '../pages/Magnet/Magnet1.jsx';
+// import Magnet2 from '../pages/Magnet/Magnet2.jsx';
+// import Magnet3 from '../pages/Magnet/Magnet3.jsx';
+// import Magnet4 from '../pages/Magnet/Magnet4.jsx';
+// import Magnet5 from '../pages/Magnet/Magnet5.jsx';
+// import ElectricityLessonsPreview from '../pages/Electricity/ElectricityLessonsPreview.jsx';
+// import MagnetLessonsPreview from '../pages//Magnet/MagnetLessonsPreview.jsx';
+// import SapiensLessonsPreview from '../pages/Sapiens/SapiensLessonsPreview.jsx';
+// import Sapiens1 from '../pages/Sapiens/Sapiens1.jsx';
+// import Sapiens2 from '../pages/Sapiens/Sapiens2.jsx';
+// import Home from '../pages/Home.jsx';
 // import { Container } from 'react-bootstrap';
 // import logo1 from '../images/lines3.gif'
 // import logo2 from '../images/electro2.gif'
@@ -34,7 +35,9 @@ export default class App extends React.Component {
       <>
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Lesson0} />
+
+            {/* <Route exact path="/" component={Home} />
             <Route exact path="/trieda-2" component={Trieda2} />
             <Route exact path="/trieda-3" component={Trieda3} />
             <Route exact path="/trieda-4" component={Trieda4} />
@@ -52,7 +55,7 @@ export default class App extends React.Component {
             <Route exact path="/magnet-5" component={Magnet5} />
             <Route exact path="/sapiens" component={SapiensLessonsPreview} />
             <Route exact path="/sapiens-1" component={Sapiens1} />
-            <Route exact path="/sapiens-2" component={Sapiens2} />
+            <Route exact path="/sapiens-2" component={Sapiens2} /> */}
           </Switch>
         </Router>
       </>
